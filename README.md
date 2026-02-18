@@ -21,6 +21,7 @@ Permite registrar, listar, modificar y eliminar vehículos almacenados en una ba
 
 
 📂 Estructura del proyecto
+```
 src/
  └── main/
       ├── java/
@@ -29,6 +30,7 @@ src/
       │     └── igu
       └── resources/
 pom.xml
+```
 
 logica → Contiene la lógica del negocio.
 
@@ -61,7 +63,7 @@ En este caso se utilizó **XAMPP** con MySQL.
 <property name="javax.persistence.jdbc.password" value=""/>
 ```
 ## ▶ Cómo ejecutar el proyecto
-###Opción 1 — Desde NetBeans
+### Opción 1 — Desde NetBeans
 
 Abrir el proyecto.
 
@@ -69,11 +71,11 @@ Configurar la base de datos.
 
 Ejecutar el proyecto.
 
-###Opción 2 — Desde consola con Maven
+### Opción 2 — Desde consola con Maven
 mvn clean install
 mvn exec:java
 
-##⚙ Configuración JPA
+## ⚙ Configuración JPA
 
 La generación de tablas está configurada en modo:
 
@@ -83,15 +85,14 @@ Esto significa que las tablas se crearán automáticamente si no existen.
 
 El proyecto utiliza transacciones RESOURCE_LOCAL.
 
-##📈 Estado del proyecto
+## 📈 Estado del proyecto
 
 ✔ CRUD funcional
 ✔ Persistencia conectada a base de datos
 ✔ Arquitectura separada en capas
 
 
-
-##👨‍💻 Autor
+## 👨‍💻 Autor
 
 Alan Casas
 Desarrollador Java en formación 🚀
