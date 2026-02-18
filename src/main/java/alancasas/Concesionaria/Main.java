@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         
         //Cambio para agregar al commit en el branch
-        System.out.println("Hello World!");
+        System.out.println("Este es el segundo cambio para la nueva rama prueba1");
         
         Home pantallaHome = new Home();
         pantallaHome.setVisible(true);
