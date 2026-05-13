@@ -23,7 +23,7 @@ public class VehiculoJpaController implements Serializable {
     }
     
     public VehiculoJpaController(){
-        this.emf = Persistence.createEntityManagerFactory("pelu_canina_PU");
+        this.emf = Persistence.createEntityManagerFactory("ConcesionariaPersistUnit");
     }
 
     private EntityManager getEntityManager() {
